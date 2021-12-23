@@ -1,0 +1,47 @@
+.header-wraper {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../public/portfolioWeb-Header2.jpg");
+  /* background: url(../../public/portfolioWeb-Header2.jpg) no-repeat; */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-info h1 {
+  color: rgb(255, 165, 0);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-main-offer {
+  border: 1px solid rgb(236, 217, 214);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  margin: 2rem;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
