@@ -12,9 +12,10 @@ const Header = () => {
           <h1>Welcome to My Website</h1>
           <Typed
             className="typed-text"
-            strings={["Web Design", "Software Application", "We Development"]}
-            typeSpeed={40}
-            backSpeed={60}
+            // strings={["Web Design", "Software Application", "We Development"]}
+            strings={["Hi, I'm Mehdi, Software Developer Based in Canada"]}
+            typeSpeed={100}
+            backSpeed={40}
             loop
           />
           <a href="/#" className="btn-main-offer">
