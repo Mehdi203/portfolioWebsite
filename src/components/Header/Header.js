@@ -6,8 +6,8 @@ import "./Header.css";
 const Header = () => {
   return (
     <div>
+      {/* <Particlße /> */}
       <div className="header-wraper">
-        <Particle />
         <div className="main-info">
           <h1>Welcome to My Website</h1>
           <Typed

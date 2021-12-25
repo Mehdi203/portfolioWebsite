@@ -2,8 +2,5 @@
 
 body {
   font-family: "Roboto", sans-serif;
-}
-
-nav {
-  z-index: 2;
+  background-color: white;
 }

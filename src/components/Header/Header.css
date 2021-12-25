@@ -1,7 +1,11 @@
+:root {
+  --primary-color: rgb(26, 144, 148);
+}
+
 .header-wraper {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../../public/portfolioWeb-Header2.jpg");
+    url("../../../public/images/portfolioWeb-Header2.jpg");
   /* background: url(../../public/portfolioWeb-Header2.jpg) no-repeat; */
   background-size: cover;
   background-position: center;
@@ -20,6 +24,7 @@
   align-items: center;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  z-index: 1;
 }
 
 .main-info h1 {
@@ -35,8 +40,17 @@
   font-weight: bold;
 }
 
+@media (max-width: 600px) {
+  .main-info h1 {
+    font-size: 1.5rem;
+  }
+  .typed-text {
+    font-size: 1rem;
+  }
+}
+
 .btn-main-offer {
-  border: 1px solid rgb(236, 217, 214);
+  border: 1px solid var(--primary-color);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -44,4 +58,14 @@
   color: white;
   font-weight: bold;
   text-decoration: none;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  /* background-color: rgb(26, 144, 148); */
+  background-color: var(--primary-color);
+  transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
 }

@@ -2,7 +2,7 @@
   --primary-orange: #28cf12;
 }
 .bgcolor {
-  background-color: lightblue;
+  background-color: rgb(26, 144, 148);
 }
 
 nav a.nav-link {
@@ -27,4 +27,8 @@ nav a.nav-link {
 
 .navbar-nav > li > a:hover {
   border-bottom: 0.187rem solid var(--primary-orange);
+}
+
+.navbar {
+  z-index: 2;
 }
