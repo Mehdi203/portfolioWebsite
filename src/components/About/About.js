@@ -4,16 +4,16 @@ import mehdi from "../mehdi2.jpg";
 
 function About() {
   return (
-    <div className="container py-5 px-5 aboutContainer">
-      <div className="row ">
-        <div className="col-lg-6 col-xm-12">
+    <div className=" py-5 px-5 aboutContainer">
+      <div className="row row-body">
+        <div className="col-lg-5 col-xm-12">
           <div className="photo-wrap mb-5">
             <img src={mehdi} alt="Mehdi" className="profile-img" />
           </div>
         </div>
-        <div className="col-lg-6 col-xm-12">
+        <div className="col-lg-7 col-xm-12">
           <h1 className="about-heading">About me</h1>
-          <p>
+          <p className="about-body">
             My name’s Mehdi and I’d like to help companies to grow their
             business and brand by writing, documenting, testing, and delivering
             scalable software applications. As a highly skilled software

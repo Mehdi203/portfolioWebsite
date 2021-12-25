@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import Particle from "./components/Header/Particle";
 import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+import Test from "./components/Test/Test";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Skills />
+      {/* <Test /> */}
     </div>
   );
 }

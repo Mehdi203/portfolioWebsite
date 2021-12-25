@@ -1,11 +1,11 @@
 .aboutContainer {
-  position: absolute;
+  position: relative;
   z-index: 2;
   /* align-items: center; */
   /* text-align: center; */
   /* margin-left: 10vw; */
   text-align: justify;
-
+  font-family: "Roboto", sans-serif;
   background-color: white;
 }
 
@@ -24,10 +24,25 @@
   text-transform: uppercase;
 }
 
+.row-body {
+  /* font-family: "Roboto", sans-serif; */
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 @media (max-width: 768px) {
   .photo-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .aboutContainer {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .row-body {
+    /* font-family: "Roboto", sans-serif; */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 }
