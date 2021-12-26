@@ -13,8 +13,9 @@
 }
 
 .skills h1 {
-  text-transform: bold;
+  font-weight: bold;
   color: var(--third-color);
+  text-transform: uppercase;
 }
 
 .box {

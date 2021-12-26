@@ -8,6 +8,7 @@ import Particle from "./components/Header/Particle";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Test from "./components/Test/Test";
+import Exprience from "./components/Exprience/Exprience";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <About />
       <Skills />
+      <Exprience />
       {/* <Test /> */}
     </div>
   );
