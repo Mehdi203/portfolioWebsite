@@ -73,7 +73,7 @@ h2 {
   font-weight: 900;
 }
 h3 {
-  color: yellowgreen;
+  color: var(--forth-color);
 }
 /*------------ MEDIA ------------------*/
 @media (max-width: 768px) {

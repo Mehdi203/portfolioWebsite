@@ -13,8 +13,6 @@ import {
   faCode,
   faDatabase,
   faDesktop,
-  faFileCode,
-  faSquareFull,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {

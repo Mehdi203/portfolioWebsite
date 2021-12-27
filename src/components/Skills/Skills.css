@@ -12,10 +12,15 @@
   padding-bottom: 2rem;
 }
 
-.skills h1 {
+h1 {
   font-weight: bold;
   color: var(--third-color);
   text-transform: uppercase;
+}
+
+.skills h3 {
+  color: var(--forth-color);
+  font-weight: bold;
 }
 
 .box {
