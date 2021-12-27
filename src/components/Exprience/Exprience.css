@@ -54,8 +54,8 @@
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  border: 0.3125rem solid red;
-  background: var(--primary-orange);
+  border: 0.3125rem solid var(--third-color);
+  background: var(--third-color);
   margin-top: 0.625rem;
   z-index: 3;
 }
@@ -67,12 +67,14 @@
   direction: ltr;
 }
 
-.timeline-content h3 {
+h2 {
   margin-top: 0.3125rem;
   color: var(--primary-color);
   font-weight: 900;
 }
-
+h3 {
+  color: yellowgreen;
+}
 /*------------ MEDIA ------------------*/
 @media (max-width: 768px) {
   .experience .container {
