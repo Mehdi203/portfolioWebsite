@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import mehdi from "../mehdi2.jpg";
+import mehdi from "../mehdi3.jpg";
 
 function About() {
   return (

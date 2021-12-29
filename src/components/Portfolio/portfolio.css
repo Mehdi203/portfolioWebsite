@@ -1,0 +1,76 @@
+.portfolio {
+  background: white;
+  position: relative;
+  z-index: 5;
+  font-family: "Roboto", sans-serif;
+  /* background-color: white; */
+  background: var(--primary-color);
+  padding: 3rem 0;
+  align-items: center;
+  text-align: center;
+}
+
+/* .portfolio-wrapper {
+  background: var(--primary-color);
+  padding: 3rem;
+} */
+
+.portfolio-image {
+  width: 20rem;
+  height: 12rem;
+
+  padding: 0 0.5rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: black;
+  width: 20rem;
+  height: 12rem;
+  top: 0;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+  border: 2px solid var(--third-color);
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -11rem;
+  margin-top: 5.5rem;
+  color: var(--third-color);
+  font-size: 1.5rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.portfolio-image-popubox {
+  width: 35rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link:hover {
+  cursor: pointer;
+  color: var(--third-color);
+}
+
+@media (max-width: 768px) {
+  .portfolio-image-popubox {
+    width: 100%;
+  }
+}

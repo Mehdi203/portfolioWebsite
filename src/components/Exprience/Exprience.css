@@ -55,7 +55,7 @@
   height: 1rem;
   border-radius: 50%;
   border: 0.3125rem solid var(--third-color);
-  background: var(--third-color);
+  background: var(--primary-color);
   margin-top: 0.625rem;
   z-index: 3;
 }
@@ -67,12 +67,12 @@
   direction: ltr;
 }
 
-h2 {
+h3 {
   margin-top: 0.3125rem;
   color: var(--primary-color);
   font-weight: 900;
 }
-h3 {
+h4 {
   color: var(--forth-color);
 }
 /*------------ MEDIA ------------------*/
