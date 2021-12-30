@@ -13,14 +13,18 @@ const Portfolio = () => {
   const openPopuboxNodeJs = () => {
     const content = (
       <>
+        <div className="header">Website Built with NodeJs</div>
         <img
           className="portfolio-image-popubox"
           src={websiteNode}
           alt="Website built by Node Js"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-          consequuntur
+          Designed and constructed a complete website for a hypothetical Travel
+          travel agency as part of the SAIT software developemnt program. This
+          website is the main business presentation to the agency clients and
+          also provides business incites for the agency to monitor performance
+          and trends.
         </p>
         <div>
           <b>Website Link</b>{" "}
@@ -57,20 +61,24 @@ const Portfolio = () => {
       enable: true,
       text: "Website Built with NodeJs",
     },
+    fadeIn: true,
+    fadeInSpeed: 500,
   };
 
   //website asp.net
   const openPopuboxAspNet = () => {
     const content = (
       <>
+        <div className="header">Website Built with ASP.NET</div>
+
         <img
           className="portfolio-image-popubox"
           src={websiteASP}
           alt="Website built by ASP.NET"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-          consequuntur
+          TravelExperts website was built using ASP.Net core MVC technology.
+          This website is designed for the customers and the company employees.
         </p>
         <div>
           <b>Website Link</b>{" "}
@@ -109,20 +117,27 @@ const Portfolio = () => {
       enable: true,
       text: "Website Built with ASP.NET",
     },
+    fadeIn: true,
+    fadeInSpeed: 500,
   };
 
   //Desktop app .Net
   const openPopuboxDesktopNet = () => {
     const content = (
       <>
+        <div className="header">Application Built with .NET Framework</div>
+
         <img
           className="portfolio-image-popubox"
           src={desktopApp}
           alt="Desktop Application"
         />
+
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-          consequuntur
+          Threaded project for Software development program at SAIT. This app
+          was built for employees of Travel Experts to be able to administer the
+          products stored on their database, using this application that will
+          provide a graphical interface for viewing and modifying the data.
         </p>
 
         <div>
@@ -149,12 +164,16 @@ const Portfolio = () => {
       enable: true,
       text: "Application Built with .NET Framework",
     },
+    fadeIn: true,
+    fadeInSpeed: 500,
   };
 
   //Website built by Django
   const openPopuboxDjango = () => {
     const content = (
       <>
+        <div className="header">Website Built with Django</div>
+
         <img
           className="portfolio-image-popubox"
           src={desktopApp}
@@ -185,8 +204,11 @@ const Portfolio = () => {
   const popupboxConfigDjango = {
     titleBar: {
       enable: true,
-      text: "Website Built with Django",
+      // text: "Website Built with Django",
+      text: "",
     },
+    fadeIn: true,
+    fadeInSpeed: 500,
   };
 
   return (
@@ -238,11 +260,11 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+        <PopupboxContainer {...popupboxConfigNodeJs} />
+        <PopupboxContainer {...popupboxConfigAspNet} />
+        <PopupboxContainer {...popupboxConfigDesktopNet} />
+        <PopupboxContainer {...popupboxConfigDjango} />
       </div>
-      <PopupboxContainer {...popupboxConfigNodeJs} />
-      <PopupboxContainer {...popupboxConfigAspNet} />
-      <PopupboxContainer {...popupboxConfigDesktopNet} />
-      <PopupboxContainer {...popupboxConfigDjango} />
     </div>
   );
 };

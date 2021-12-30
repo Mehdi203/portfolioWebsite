@@ -74,3 +74,18 @@
     width: 100%;
   }
 }
+
+p {
+  padding: 1rem;
+}
+
+b {
+  padding-right: 0.5rem;
+}
+
+.header {
+  padding: 0.5rem;
+  color: var(--third-color);
+  text-transform: uppercase;
+  font-weight: bolder;
+}
