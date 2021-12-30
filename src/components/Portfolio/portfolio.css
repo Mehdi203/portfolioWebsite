@@ -69,12 +69,6 @@
   color: var(--third-color);
 }
 
-@media (max-width: 768px) {
-  .portfolio-image-popubox {
-    width: 100%;
-  }
-}
-
 p {
   padding: 1rem;
 }
@@ -88,4 +82,34 @@ b {
   color: var(--third-color);
   text-transform: uppercase;
   font-weight: bolder;
+}
+
+@media (min-width: 1024px) {
+  p {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media (max-height: 570px) {
+  .popupbox-wrapper {
+    height: 100%;
+  }
+  .portfolio-image-popupbox {
+    width: 50%;
+  }
+}
+
+@media (max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+  .portfolio-image-popupbox {
+    width: 30%;
+  }
 }
