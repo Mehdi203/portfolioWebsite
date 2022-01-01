@@ -69,11 +69,11 @@
   color: var(--third-color);
 }
 
-p {
+.portfolio p {
   padding: 1rem;
 }
 
-b {
+.portfolio b {
   padding-right: 0.5rem;
 }
 
@@ -85,7 +85,7 @@ b {
 }
 
 @media (min-width: 1024px) {
-  p {
+  .portfolio p {
     width: 35rem;
   }
 }

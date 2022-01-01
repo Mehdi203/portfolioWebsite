@@ -5,7 +5,6 @@ import {
   faNodeJs,
   faReact,
   faPython,
-  faAppStore,
 } from "@fortawesome/free-brands-svg-icons";
 // import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

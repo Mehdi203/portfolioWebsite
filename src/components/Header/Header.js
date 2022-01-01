@@ -1,5 +1,5 @@
 import React from "react";
-import Particle from "./Particle";
+// import Particle from "./Particle";
 import Typed from "react-typed";
 import "./Header.css";
 

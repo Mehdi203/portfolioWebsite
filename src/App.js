@@ -7,9 +7,10 @@ import Header from "./components/Header/Header";
 import Particle from "./components/Header/Particle";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
-import Test from "./components/Test/Test";
+// import Test from "./components/Test/Test";
 import Exprience from "./components/Exprience/Exprience";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Contacts from "./components/Contacts/Contacts";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Skills />
       <Exprience />
       <Portfolio />
+      <Contacts />
       {/* <Test /> */}
     </div>
   );
