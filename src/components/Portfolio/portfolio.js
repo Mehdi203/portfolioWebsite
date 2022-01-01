@@ -13,7 +13,7 @@ const Portfolio = () => {
   const openPopuboxNodeJs = () => {
     const content = (
       <>
-        <div className="header">Website Built with NodeJs</div>
+        {/* <div className="header">Website Built with NodeJs</div> */}
         <img
           className="portfolio-image-popubox"
           src={websiteNode}
@@ -54,6 +54,12 @@ const Portfolio = () => {
       </>
     );
     PopupboxManager.open({ content });
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: { text: "Website Built with NodeJs" },
+      },
+    });
   };
 
   const popupboxConfigNodeJs = {
@@ -69,7 +75,7 @@ const Portfolio = () => {
   const openPopuboxAspNet = () => {
     const content = (
       <>
-        <div className="header">Website Built with ASP.NET</div>
+        {/* <div className="header">Website Built with ASP.NET</div> */}
 
         <img
           className="portfolio-image-popubox"
@@ -110,6 +116,12 @@ const Portfolio = () => {
       </>
     );
     PopupboxManager.open({ content });
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: { text: "Website Built with ASP.NET" },
+      },
+    });
   };
 
   const popupboxConfigAspNet = {
@@ -125,7 +137,7 @@ const Portfolio = () => {
   const openPopuboxDesktopNet = () => {
     const content = (
       <>
-        <div className="header">Application Built with .NET Framework</div>
+        {/* <div className="header">Application Built with .NET Framework</div> */}
 
         <img
           className="portfolio-image-popubox"
@@ -157,6 +169,12 @@ const Portfolio = () => {
       </>
     );
     PopupboxManager.open({ content });
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: { text: "Application Built with .NET Framework" },
+      },
+    });
   };
 
   const popupboxConfigDesktopNet = {
@@ -172,7 +190,7 @@ const Portfolio = () => {
   const openPopuboxDjango = () => {
     const content = (
       <>
-        <div className="header">Website Built with Django</div>
+        {/* <div className="header">Website Built with Django</div> */}
 
         <img
           className="portfolio-image-popubox"
@@ -199,13 +217,19 @@ const Portfolio = () => {
       </>
     );
     PopupboxManager.open({ content });
+    PopupboxManager.update({
+      content,
+      config: {
+        titleBar: { text: "Website Built with Django" },
+      },
+    });
   };
 
   const popupboxConfigDjango = {
     titleBar: {
       enable: true,
       // text: "Website Built with Django",
-      text: "",
+      text: "Website Built with Django",
     },
     fadeIn: true,
     fadeInSpeed: 500,
