@@ -1,12 +1,19 @@
 .aboutContainer {
-  position: relative;
-  z-index: 2;
+  /* position: relative;
+  z-index: 2; */
   /* align-items: center; */
   /* text-align: center; */
   /* margin-left: 10vw; */
   text-align: justify;
   font-family: "Roboto", sans-serif;
   background-color: white;
+  z-index: 2 !important;
+  /* position: absolute; */
+}
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-img {

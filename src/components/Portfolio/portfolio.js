@@ -236,7 +236,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="portfolio">
+    <div id="portfolio" className="portfolio">
       <div classsName="portfolio-wrapper">
         <div className="container">
           <h1 className="text-uppercase text-center-py-5">portfolio</h1>

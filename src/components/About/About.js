@@ -4,7 +4,7 @@ import mehdi from "../mehdi3.jpg";
 
 function About() {
   return (
-    <div className=" py-5 px-5 aboutContainer">
+    <div id="about" className=" container py-5 aboutContainer">
       <div className="row row-body">
         <div className="col-lg-5 col-xm-12">
           <div className="photo-wrap mb-5">

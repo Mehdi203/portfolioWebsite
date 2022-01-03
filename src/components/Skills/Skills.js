@@ -16,7 +16,7 @@ import {
 
 const Skills = () => {
   return (
-    <div>
+    <div id="skills">
       <div className="skills">
         <h1 className="py-5">My Expertise</h1>
 

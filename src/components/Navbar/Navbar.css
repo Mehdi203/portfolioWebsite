@@ -2,31 +2,32 @@
   --primary-orange: #28cf12;
 }
 .bgcolor {
-  background-color: rgb(26, 144, 148);
+  background-color: var(--primary-color);
 }
 
 nav a.nav-link {
   font-weight: 500;
   letter-spacing: 0.6px;
   cursor: pointer;
+  color: rgb(241, 245, 248) !important;
 }
 
-/* nav ul li {
+nav ul li {
   text-transform: uppercase;
-} */
+}
 
-.navbar-nv > li > a {
+.navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
 }
 
 .navbar-nav > li > a.active,
-.navbar-nav > li > a.active:focus {
-  border-bottom: 0.187rem solid var(--primary-orange);
+.navbar-nav > li > a:focus {
+  border-bottom: 0.187rem solid var(--primary-orange) !important;
 }
 
 .navbar-nav > li > a:hover {
-  border-bottom: 0.187rem solid var(--primary-orange);
+  border-bottom: 0.187rem solid var(--primary-orange) !important;
 }
 
 .navbar {

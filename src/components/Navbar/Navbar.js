@@ -1,14 +1,15 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bgcolor">
+    <nav className="navbar navbar-expand-lg navbar-light bgcolor fixed-top">
       <div className="container">
         <div className="container-fluid">
-          {/* <a className="navbar-brand" href="/#">
+          {/*<Link className="navbar-brand" href="/#">
             Navbar
-          </a> */}
+          </Link> */}
           <button
             className="navbar-toggler"
             type="button"
@@ -23,29 +24,64 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" href="/#">
+                <Link
+                  smooth={false}
+                  activeClass="active"
+                  offset={-110}
+                  to="home"
+                  className="nav-link"
+                  href="/#"
+                >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">
+                <Link
+                  smooth={false}
+                  activeClass="active"
+                  offset={-110}
+                  to="about"
+                  className="nav-link"
+                  href="/#"
+                >
                   About me
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">
+                <Link
+                  smooth={false}
+                  activeClass="active"
+                  offset={-110}
+                  to="exprience"
+                  className="nav-link"
+                  href="/#"
+                >
                   Exprience
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">
+                <Link
+                  smooth={false}
+                  activeClass="active"
+                  offset={-110}
+                  to="portfolio"
+                  className="nav-link"
+                  href="/#"
+                >
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">
+                <Link
+                  smooth={false}
+                  activeClass="active"
+                  offset={-110}
+                  to="contacts"
+                  className="nav-link"
+                  href="/#"
+                >
                   Contacts
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
