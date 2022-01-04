@@ -1,3 +1,9 @@
+# References:
+
+https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/25595438#overview
+
+https://www.youtube.com/watch?v=ctLFWAanxcI&ab_channel=ProgrammingLiftoff
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
