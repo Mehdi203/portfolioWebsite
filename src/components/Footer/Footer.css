@@ -1,0 +1,23 @@
+.footer {
+  background: var(--secondary-color);
+  color: black;
+  padding: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover {
+  /* text-decoration: none;
+  color: var(--third-color);
+  cursor: pointer; */
+  cursor: pointer;
+  border-bottom: 0.187rem solid var(--third-color) !important;
+}
+
+.footer p {
+  margin-bottom: 0;
+}

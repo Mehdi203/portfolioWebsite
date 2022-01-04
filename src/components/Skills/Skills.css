@@ -1,0 +1,41 @@
+.skills {
+  /* position: relative;
+  z-index: 3; */
+  /* align-items: center; */
+  /* text-align: center; */
+  /* margin-left: 10vw; */
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-color);
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  font-weight: bold;
+  color: var(--third-color);
+  text-transform: uppercase;
+}
+
+.skills h3 {
+  color: var(--forth-color);
+  font-weight: bold;
+}
+
+.box {
+  height: 8rem;
+  border-bottom: 0.3rem solid var(--third-color);
+  padding: 0.625rem;
+  margin-bottom: 1.8rem;
+  background-color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.box:hover {
+  background-color: var(--third-color);
+  border-bottom: 0.3rem solid var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+}

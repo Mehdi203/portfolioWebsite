@@ -1,0 +1,13 @@
+.test {
+  position: relative;
+  z-index: 4;
+  /* align-items: center; */
+  /* text-align: center; */
+  /* margin-left: 10vw; */
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  background-color: red;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2rem;
+}
