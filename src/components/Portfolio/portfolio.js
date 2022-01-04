@@ -29,7 +29,7 @@ const Portfolio = () => {
         <div>
           <b>Website Link</b>{" "}
           <a
-            href="/#" //to remove warning
+            //href="/#" //to remove warning
             className="hyper-link"
             onClick={() =>
               window.open("https://team2travelexpert.azurewebsites.net/")
@@ -42,7 +42,7 @@ const Portfolio = () => {
           <b>Github</b>
 
           <a
-            href="/#" //to remove warning
+            //href="/#" //to remove warning
             className="hyper-link"
             onClick={() =>
               window.open("https://github.com/Mehdi203/TravelExpert", "_blank")
@@ -89,7 +89,7 @@ const Portfolio = () => {
         <div>
           <b>Website Link</b>{" "}
           <a
-            href="/#" //to remove warning
+            //href="/#" //to remove warning
             className="hyper-link"
             onClick={() =>
               window.open(
@@ -104,7 +104,7 @@ const Portfolio = () => {
         <div>
           <b>Github</b>
           <a
-            href="/#" //to remove warning
+            //href="/#" //to remove warning
             className="hyper-link"
             onClick={() =>
               window.open("https://github.com/Mehdi203/TravelExperts_ASP.Net")
@@ -155,7 +155,7 @@ const Portfolio = () => {
         <div>
           <b>Github</b>
           <a
-            href="/#" //to remove warning
+            //href="/#" //to remove warning
             className="hyper-link"
             onClick={() =>
               window.open(
@@ -205,7 +205,7 @@ const Portfolio = () => {
         <div>
           <b>Github</b>
           <a
-            href="/#" //to remove warning
+            //href="/#" //to remove warning
             className="hyper-link"
             onClick={() =>
               window.open("https://github.com/Mehdi203/MovieRental")
