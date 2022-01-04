@@ -20,9 +20,9 @@ function About() {
             developer with 4 years of experience, I was involved with
             development of software programs in the energy and tech industries.
             Throughout my work experience, along with my education, I utilized
-            .NET Core, .NET Framework and C# to develop web services, windows
-            services, and web applications. My experience in software
-            development started with my engineering roles in the energy
+            varoius front-end and back-end technologies/tools to develop web
+            services, windows services, and web applications. My experience in
+            software development started with my engineering roles in the energy
             industry. I was involved with developing multiple software programs
             by working in Agile teams. I also wrote more than 5 high quality
             scripts in Python, C# and JavaScript to automate procedures and

@@ -22,7 +22,7 @@ const Skills = () => {
 
         <div className="container">
           <div className="row">
-            <div className="col-md-2 col-sm-6">
+            <div className="col-md-6 col-sm-12 col-lg-2">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon icon={faNodeJs} size="2x" />
@@ -32,7 +32,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="col-md-2 col-sm-6">
+            <div className="col-md-6 col-sm-12 col-lg-2">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon icon={faReact} size="2x" />
@@ -42,7 +42,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="col-md-2 col-sm-6">
+            <div className="col-md-6 col-sm-12 col-lg-2">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon icon={faCode} size="2x" />
@@ -52,7 +52,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="col-md-2 col-sm-6">
+            <div className="col-md-6 col-sm-12 col-lg-2">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon icon={faPython} size="2x" />
@@ -61,7 +61,7 @@ const Skills = () => {
                 <p>python</p>
               </div>
             </div>
-            <div className="col-md-2 col-sm-6">
+            <div className="col-md-6 col-sm-12 col-lg-2">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon icon={faDesktop} size="2x" />
@@ -71,7 +71,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="col-md-2 col-sm-6">
+            <div className="col-md-6 col-sm-12 col-lg-2">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon icon={faDatabase} size="2x" />

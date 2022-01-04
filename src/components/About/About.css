@@ -4,7 +4,7 @@
   /* align-items: center; */
   /* text-align: center; */
   /* margin-left: 10vw; */
-  text-align: justify;
+  /* text-align: justify; */
   font-family: "Roboto", sans-serif;
   background-color: white;
   z-index: 2 !important;
@@ -43,10 +43,7 @@
     justify-content: center;
     align-items: center;
   }
-  .aboutContainer {
-    margin-left: 0rem;
-    margin-right: 0rem;
-  }
+
   .row-body {
     /* font-family: "Roboto", sans-serif; */
     margin-left: 0.5rem;

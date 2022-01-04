@@ -132,7 +132,7 @@ const Contacts = () => {
                 id="description"
                 type="text"
                 className="form-control"
-                placeholder="text"
+                placeholder="Text..."
                 name="description"
                 {...register("description", {
                   required: "Plerase add a description for your message",

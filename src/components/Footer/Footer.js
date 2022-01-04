@@ -1,13 +1,11 @@
 import React from "react";
 import {
-  FacebookShareButton,
-  FacebookIcon,
-  TwitterShareButton,
-  TwitterIcon,
-  RedditShareButton,
-  RedditIcon,
   LinkedinShareButton,
   LinkedinIcon,
+  WhatsappIcon,
+  WhatsappShareButton,
+  TelegramIcon,
+  TelegramShareButton,
 } from "react-share";
 // import { FaGithub } from "react-icons/fa";
 import "./Footer.css";
@@ -58,20 +56,6 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
-              <TwitterShareButton
-                url={"https://www.youtube.com/8020coding"}
-                quote={"FullStack Developer"}
-                hashtag="#javascript"
-              >
-                <TwitterIcon className="mx-3" size={36} />
-              </TwitterShareButton>
-              <RedditShareButton
-                url={"https://www.youtube.com/8020coding"}
-                quote={"FullStack Developer"}
-                hashtag="#javascript"
-              >
-                <RedditIcon className="mx-3" size={36} />
-              </RedditShareButton>
               <LinkedinShareButton
                 url={"https://www.linkedin.com/in/noroozimehdi/"}
                 quote={"FullStack Developer"}
@@ -79,6 +63,20 @@ const Footer = () => {
               >
                 <LinkedinIcon className="mx-3" size={36} />
               </LinkedinShareButton>
+              <WhatsappShareButton
+                url={"https://www.whatsapp.com/"}
+                quote={"FullStack Developer"}
+                hashtag="#javascript"
+              >
+                <WhatsappIcon className="mx-3" size={36} />
+              </WhatsappShareButton>
+              <TelegramShareButton
+                url={"https://telegram.org/"}
+                quote={"FullStack Developer"}
+                hashtag="#javascript"
+              >
+                <TelegramIcon className="mx-3" size={36} />
+              </TelegramShareButton>
             </div>
           </div>
         </div>
